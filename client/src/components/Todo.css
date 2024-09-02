@@ -1,0 +1,29 @@
+.todo {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .todo {
+    width: 70%;
+    margin: 0px 75px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .todo {
+    width: 80%;
+    margin: 0px 20px;
+  }
+
+  .heading {
+    margin-left: 40px;
+  }
+}
