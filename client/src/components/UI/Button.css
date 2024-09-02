@@ -1,0 +1,27 @@
+.btn {
+  background-color: #b032da;
+  border-radius: 5px;
+  height: 30px;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+  border: none;
+  margin: 2px 0px;
+}
+
+.btn:hover {
+  background-color: #7902a0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 475px) {
+  .btn {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
